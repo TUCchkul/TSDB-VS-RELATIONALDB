@@ -256,7 +256,7 @@ def bar_graph_disk_space(td_engine):
     plt.close()
 
 log = RouteLogfile()
-log.read("routeor.log")
+log.read("1.log")
 date = datetime.now()
 starttime = datetime(
     year=date.year,

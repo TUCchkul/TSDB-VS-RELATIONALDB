@@ -153,7 +153,7 @@ def insert_values_mysql(driveId, sensorId, timestamps, values_lat,values_lon,   
 
     return mysql_total_time,average_times
 log = RouteLogfile()
-log.read("routeor.log")
+log.read("1.log")
 
 date = datetime.now()
 starttime = datetime(
